@@ -21,3 +21,9 @@ var temp=200;
 console.log(temp);
 temp="JavaScript"
 console.log(temp)
+
+var x=5;
+var y=7;
+var temp1=x;
+x=y;
+y=temp;
