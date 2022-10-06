@@ -2,7 +2,10 @@ var firstName="Kedar";
 var lastName="Patil";
 var city="Jalna";
 var state="Maharashtra";
-console.log(firstName,lastName,city,state);
+console.log("First Name:",firstName);
+console.log("Second Name:", lastName)
+console.log("City:",city)
+console.log("State:",state)
 
 var x="Kedar";
 var y="Patil"
