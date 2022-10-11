@@ -23,3 +23,9 @@ console.log("Area of triangle is ", base*height);
 return "Triangle"
 }
 var triangle=areaoftriangle(20,50);
+//--------------------------------------------------------------------------------
+var fname="Kedar";
+var lname="Patil";
+// var result=console.log(fname.concat(lname));
+var result=console.log(fname.concat(" ",lname));
+

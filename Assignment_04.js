@@ -40,7 +40,7 @@ var areaofrectangle= function (base, height) {
  var y=test.indexOf("S")
  console.log("Index positon of S is",y);
  console.log("--------------------------------");
- var z=test.lastIndexOf("JavaScript is the most popular language");
+ var z=test.lastIndexOf("language");
  console.log("The last index is ",z);
  var w=test.charAt(8);
  console.log("Character at 3rd last position is",w);
