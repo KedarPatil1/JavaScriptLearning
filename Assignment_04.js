@@ -42,3 +42,6 @@ var areaofrectangle= function (base, height) {
  console.log("--------------------------------");
  var z=test.lastIndexOf("JavaScript is the most popular language");
  console.log("The last index is ",z);
+ var w=test.charAt(8);
+ console.log("Character at 3rd last position is",w);
+ //console.log(test.charAt(-3));
