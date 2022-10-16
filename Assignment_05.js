@@ -28,11 +28,9 @@ var stringHandsOn = function () {
     console.log(`06 Total number of extra spaces after 3rd result is`,trimresult.split(' ').length-1);
     // console.log(`05 Charater present at given positon are `, trimresult.charAt( trimresult.length-1));
     console.log(`07 Index of Good is `, trimresult.indexOf("good"));
-    console.log(`08 Substring from position 22 is `, trimresult.substring(22), `By using slice method`, trimresult.slice(22));
+    console.log(`08 Substring from position 22 is `, trimresult.substring(22), `AND By using SLICE method`, trimresult.slice(22));
     console.log(`09 String ends with word UP is`, trimresult.endsWith("up"));
     console.log(`10 String starts with word HEY is `, trimresult.startsWith("Hey"));
-
-
 }
 stringHandsOn();
 
