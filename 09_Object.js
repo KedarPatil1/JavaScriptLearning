@@ -22,9 +22,9 @@ const ObjectKedar ={
     }
 
 }
-console.log(Object.keys(ObjectKedar))
-console.log(Object.entries(ObjectKedar));
-console.log(Object.values(ObjectKedar));
+console.log(Object.keys(ObjectKedar)) //To show keys in object
+console.log(Object.entries(ObjectKedar)); //To shows the entries in object 
+console.log(Object.values(ObjectKedar));//To show the values in object 
 console.log(ObjectKedar.details());
 ObjectKedar.details()
 ObjectKedar.walk();
@@ -44,6 +44,8 @@ console.log(ObjectKedar.address.state); //To access the nested object value
 ObjectKedar.address.landmark="Near Hanuman Temple"//To add new value/key in nested object
 console.table(ObjectKedar); 
 ObjectKedar.eat();
+let isAvaliable="age" in ObjectKedar;//It is used to show any specific variable is avaliable in object or not
+console.log(isAvaliable);
 
 
 
